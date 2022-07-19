@@ -15,6 +15,10 @@ logs
 node_modules
 bower_components
 
+dist
+.vercel
+.env
+
 *.sublime*
 
 psd

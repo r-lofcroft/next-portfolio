@@ -1,10 +1,11 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import { Container, Divider, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
-import { WorkGridItem } from '../components/grid-item'
+import { TempGridItem, WorkGridItem } from '../components/grid-item'
 import thumbAirbean from '../public/images/projects/cupDrone.png'
 import textAdventure from '../public/images/projects/text-adventure.png'
 import hackwrack from '../public/images/projects/hackwrack.png'
 import buddybuildr from '../public/images/projects/buddybuildr.png'
+import astrofobia from '../public/images/projects/astrofobia.png'
 
 import Layout from '../components/layouts/article'
 
@@ -13,9 +14,9 @@ const Projects = () => {
     <Layout>
       <Container>
         <Heading as="h3" fontSize={20} mb={4} mt={4}>
-          Projects
+          School projects
         </Heading>
-        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <SimpleGrid columns={[1, 1, 2]} alignItems="end" gap={7}>
           <Section>
             <WorkGridItem
               id="airbean"
@@ -62,6 +63,22 @@ const Projects = () => {
             </WorkGridItem>
           </Section>
         </SimpleGrid>
+        <Divider my={6} />
+        <Heading as="h3" fontSize={20} mb={4} mt={8}>
+          Personal projects
+        </Heading>
+        <Section>
+          <TempGridItem
+            disabled
+            id="astrofobia"
+            title="Astrofobia"
+            thumbnail={astrofobia}
+          >
+            A pixelated 3D thriller game set on a desolate space station
+            featuring an in-depth morality system and is currently in
+            development in UE5.
+          </TempGridItem>
+        </Section>
       </Container>
     </Layout>
   )

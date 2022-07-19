@@ -16,17 +16,21 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
+import { IoLogoGithub } from 'react-icons/io5'
 
-const LinkItem = ({ href, path, children }) => {
+const LinkItem = ({ href, path, children, target, ...props }) => {
   const active = path === href
   const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
 
   return (
-    <NextLink href={href}>
+    <NextLink href={href} passHref scroll={false}>
       <Link
         p={2}
         bg={active ? 'glassTeal' : undefined}
+        borderRadius="8px"
         color={active ? '#202023' : inactiveColor}
+        target={target}
+        {...props}
       >
         {children}
       </Link>
@@ -68,8 +72,20 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem style="border-radius:12px;" href="/projects" path={path}>
+          <LinkItem href="/projects" path={path}>
             Projects
+          </LinkItem>
+          <LinkItem
+            target="_blank"
+            href="https://github.com/r-lofcroft/next-portfolio"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLogoGithub />
+            Source
           </LinkItem>
         </Stack>
         <Box flex={1} align="right">
@@ -84,7 +100,7 @@ const Navbar = props => {
               />
               <MenuList>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                  <MenuItem as={Link}>Home</MenuItem>
                 </NextLink>
                 <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
