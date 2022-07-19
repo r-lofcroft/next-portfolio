@@ -7,7 +7,7 @@ class Document extends NextDocument {
     return (
       <Html lang="en">
         <Head />
-        <body overflowY="scroll">
+        <body>
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />
           <Main />
           <NextScript />
