@@ -8,7 +8,8 @@ import {
   Icon,
   List,
   ListItem,
-  useColorModeValue
+  useColorModeValue,
+  Divider
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -39,14 +40,15 @@ const Page = () => {
               borderColor="whiteAlpha.800"
               borderWidth={2}
               borderStyle="solid"
-              maxWidth="100px"
+              maxWidth="125px"
               display="inline-block"
               borderRadius="full"
-              src="/images/profile.jpg"
+              src="/images/profile.png"
               alt="Profile Picture"
             />
           </Box>
         </Box>
+        <Divider my={6} />
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title" fontSize={25}>
             Work
