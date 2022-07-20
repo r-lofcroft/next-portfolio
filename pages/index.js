@@ -65,7 +65,7 @@ const Page = () => {
               Labrador, Nike
             </Link>
             . Currently, he is employed as a frontend development intern at
-            Lynk&Co and works on his free time on projects to progress his
+            Lynk&Co and in his free time works on projects to progress his
             knowledge in software engineering and machine learning.
           </Paragraph>
           <Box align="center" my={4}>
