@@ -48,7 +48,7 @@ const Page = () => {
             />
           </Box>
         </Box>
-        <Divider my={6} />
+        <Divider my={4} />
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title" fontSize={25}>
             Work
@@ -103,14 +103,14 @@ const Page = () => {
           <Heading as="h3" variant="sub-title" fontSize={25}>
             Hobbies
           </Heading>
-          <Paragraph>
+          <Paragraph textAlign="none">
             <Link
               isExternal
               href="https://www.goodreads.com/user/show/146280090-robin-williscroft"
             >
               Books
             </Link>
-            , Writing, Tabletop Games, Painting Miniatures, Animation
+            , Writing, Tabletop games, Painting miniatures, Animation
           </Paragraph>
         </Section>
         <Section delay={0.3}>
