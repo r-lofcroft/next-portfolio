@@ -83,6 +83,11 @@ const Page = () => {
             Born in Trollhättan, Sweden.
           </BioSection>
           <BioSection>
+            <BioYear>2012</BioYear>
+            Finished the Game Development program at Ljud & Bild-skolan
+            specializing in 3D & animation.
+          </BioSection>
+          <BioSection>
             <BioYear>2022</BioYear>
             Completed a vocational degree in Frontend development at
             IT-Högskolan in Mölndal, Sweden.

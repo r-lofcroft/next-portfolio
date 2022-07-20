@@ -110,7 +110,7 @@ const Navbar = props => {
                   href="https://www.linkedin.com/in/robin-williscroft/"
                 >
                   <MenuItem as={Link} isExternal>
-                    Contact
+                    LinkedIn
                   </MenuItem>
                 </NextLink>
                 <MenuItem
