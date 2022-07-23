@@ -19,6 +19,8 @@ dist
 .vercel
 .env
 
+backup
+
 *.sublime*
 
 psd

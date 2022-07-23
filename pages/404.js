@@ -1,7 +1,7 @@
 import NextLink from 'next/link'
 import Image from 'next/image'
 import { Box, Heading, Divider, Button, Text } from '@chakra-ui/react'
-import obiOne from '../public/images/obiOne.png'
+import obiOne from '../public/images/obiOne.webp'
 import styled from '@emotion/styled'
 
 const NotFoundContainer = styled.span`

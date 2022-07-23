@@ -23,7 +23,7 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  const moustacheImg = `/images/moustache${useColorModeValue('', '-dark')}.png`
+  const moustacheImg = `/images/moustache${useColorModeValue('', '-dark')}.webp`
 
   return (
     <Link href="/" scroll={false}>

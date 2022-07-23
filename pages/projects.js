@@ -1,11 +1,11 @@
 import { Container, Divider, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { TempGridItem, WorkGridItem } from '../components/grid-item'
-import thumbAirbean from '../public/images/projects/cupDrone.png'
-import textAdventure from '../public/images/projects/text-adventure.png'
-import hackwrack from '../public/images/projects/hackwrack.png'
-import buddybuildr from '../public/images/projects/buddybuildr.png'
-import astrofobia from '../public/images/projects/astrofobia.png'
+import thumbAirbean from '../public/images/projects/cupDrone.webp'
+import textAdventure from '../public/images/projects/text-adventure.webp'
+import hackwrack from '../public/images/projects/hackwrack.webp'
+import buddybuildr from '../public/images/projects/buddybuildr.webp'
+import astrofobia from '../public/images/projects/astrofobia.webp'
 
 import Layout from '../components/layouts/article'
 
