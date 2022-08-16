@@ -43,7 +43,7 @@ const Page = () => {
               maxWidth="125px"
               display="inline-block"
               borderRadius="full"
-              src="/images/profile.webp"
+              src="/images/profile.jpg"
               alt="Profile Picture"
             />
           </Box>
