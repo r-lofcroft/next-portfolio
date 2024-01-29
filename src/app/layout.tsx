@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Robin Williscroft",
-  description: "Portfolio made in Next.js and Tailwind CSS.",
+  description: "Portfolio made with Next.js, Framer Motion, and Tailwind CSS.",
 };
 
 export default function RootLayout({

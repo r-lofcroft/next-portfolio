@@ -1,4 +1,22 @@
-export default function Contact() {
+import React, { useState } from "react";
+interface ChildProps {
+  onStateChange: (newState: boolean) => void;
+}
+const Contact: React.FC<ChildProps> = ({ onStateChange }) => {
+  const [parentModalState, closeParentModal] = useState<boolean>(false);
+
+  const toggleState = () => {
+    const newState = !parentModalState;
+    closeParentModal(newState);
+    onStateChange(newState);
+  };
+
+  const confirmCallback = (callback: any) => {
+    if (callback) {
+      toggleState();
+    }
+  };
+
   async function handleSubmit(event: any) {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -18,9 +36,13 @@ export default function Contact() {
       body: json,
     });
     const result = await response.json();
-    if (result.success) {
-      console.log(result);
-    }
+
+    confirmCallback(() => {
+      if (result.success) {
+        toggleState();
+        console.log(result);
+      }
+    });
   }
 
   return (
@@ -71,13 +93,20 @@ export default function Contact() {
             placeholder="Your Message"
           ></textarea>
         </div>
+        <input
+          type="checkbox"
+          name="botcheck"
+          className="hidden"
+          style={{ display: "none" }}
+        />
         <button
           type="submit"
           className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
         >
-          Submit Form
+          Send
         </button>
       </form>
     </>
   );
-}
+};
+export default Contact;

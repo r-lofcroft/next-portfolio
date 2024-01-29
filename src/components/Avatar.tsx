@@ -13,7 +13,7 @@ const ProfileComponent = () => {
       >
         <motion.div className="item" drag dragConstraints={constraintsRef}>
           <Image
-            className="relative z-10 inset-0 w-full h-full object-cover rounded-lg pointer-events-none"
+            className="relative z-10 inset-0 w-full h-full object-cover rounded-3xl pointer-events-none"
             alt="Interactive profile picture"
             src="/profile.webp"
             width={142}

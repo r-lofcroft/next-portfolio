@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import ProfileComponent from "../components/Avatar";
-import IntroComponent from "../components/Profile";
-import ProjectComponent from "../components/Projects";
+import ProfileComponent from "@/components/Avatar";
+import IntroComponent from "@/components/Profile";
+import ProjectComponent from "@/components/Projects";
 import SocialsComponent from "@/components/Socials";
-import Contact from "@/components/Contact";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
+import Footer from "@/components/Footer";
 
 const Home: React.FC = () => {
   return (
@@ -18,17 +18,19 @@ const Home: React.FC = () => {
           </div>
         </motion.div>
       </section>
-      <section>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-          <ProjectComponent />
-        </motion.div>
+      <section className="overflow-hidden">
+        <AnimatePresence>
+          <motion.div initial={{ x: -50 }} whileInView={{ x: 0 }}>
+            <ProjectComponent />
+          </motion.div>
+        </AnimatePresence>
       </section>
-      <section className=" bg-zinc-950 text-sm text-zinc-50">
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+      <section className="overflow-hidden bg-zinc-950 text-sm text-zinc-50">
+        <motion.div initial={{ x: 50 }} whileInView={{ x: 0 }}>
           <SocialsComponent />
-          <Contact />
         </motion.div>
       </section>
+      <Footer />
     </div>
   );
 };

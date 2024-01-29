@@ -18,9 +18,12 @@ const IntroComponent = () => {
       </motion.div>
       <p className="text-lg m-8">Web Developer | TypeScript Enthusiast</p>
       <p className="mt-2 opacity-40 md:mt-3 ml-20 mr-20">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem pariatur,
-        saepe soluta sed amet fugit aliquid alias! Dolor laborum ducimus, quos
-        impedit sunt error. Eaque debitis aliquam molestias excepturi fugiat?
+        My primary focus centers on specializing in accessibility within web
+        development. At Qmatic, I lead and build projects with a keen emphasis
+        on crafting solutions that not only look impressive but also adhere to
+        the highest standards of accessibility. In my downtime, you'll find me
+        immersed in activities such as rock climbing, reading, and raiding in
+        World of Warcraft.
       </p>
     </div>
   );
