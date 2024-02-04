@@ -50,3 +50,13 @@ body {
   border-radius: inherit;
   z-index: 2;
 }
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: linear-gradient(to right, #34d399, #fde047);
+  transform-origin: 0%;
+  z-index: 999999;
+}

@@ -53,7 +53,7 @@ const Contact: React.FC<ChildProps> = ({ onStateChange }) => {
             htmlFor="name"
             className="block text-sm font-medium text-gray-700"
           >
-            Name
+            Name:
           </label>
           <input
             type="text"
@@ -68,7 +68,7 @@ const Contact: React.FC<ChildProps> = ({ onStateChange }) => {
             htmlFor="email"
             className="block text-sm font-medium text-gray-700"
           >
-            Email
+            Email:
           </label>
           <input
             type="email"
@@ -83,7 +83,7 @@ const Contact: React.FC<ChildProps> = ({ onStateChange }) => {
             htmlFor="message"
             className="block text-sm font-medium text-gray-700"
           >
-            Message
+            Message:
           </label>
           <textarea
             name="message"
@@ -101,7 +101,7 @@ const Contact: React.FC<ChildProps> = ({ onStateChange }) => {
         />
         <button
           type="submit"
-          className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
+          className="px-4 py-2 bg-black text-white rounded-md hover:bg-zinc-950"
         >
           Send
         </button>

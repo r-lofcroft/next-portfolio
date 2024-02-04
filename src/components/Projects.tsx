@@ -23,12 +23,12 @@ const ProjectComponent = () => {
             Software Developer
           </h4>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            I specialize in advancing the frontend for the 'Experience Cloud'
-            using Vue and TypeScript. I refine our design system with Storybook,
-            creating reusable components for seamless and engaging user
-            interfaces. My work on the Experience Cloud provides insights into
-            modern web technologies, fueling a passion for delivering user
-            experiences that blend aesthetics with functionality.
+            I work on the frontend for the 'Experience Cloud' solution using Vue
+            and TypeScript. I refine our design system with Storybook, creating
+            reusable components for seamless and engaging user interfaces. My
+            work on the Experience Cloud provides insights into modern web
+            technologies, fueling a passion for delivering user experiences that
+            blend aesthetics with functionality.
           </p>
         </li>
         <li className="mb-10 ms-4">
