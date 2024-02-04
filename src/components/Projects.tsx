@@ -23,12 +23,12 @@ const ProjectComponent = () => {
             Software Developer
           </h4>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            I work on the frontend for the 'Experience Cloud' solution using Vue
-            and TypeScript. I refine our design system with Storybook, creating
-            reusable components for seamless and engaging user interfaces. My
-            work on the Experience Cloud provides insights into modern web
-            technologies, fueling a passion for delivering user experiences that
-            blend aesthetics with functionality.
+            I work on the frontend for the &apos;Experience Cloud&apos; solution
+            using Vue and TypeScript. I refine our design system with Storybook,
+            creating reusable components for seamless and engaging user
+            interfaces. My work on the Experience Cloud provides insights into
+            modern web technologies, fueling a passion for delivering user
+            experiences that blend aesthetics with functionality.
           </p>
         </li>
         <li className="mb-10 ms-4">
@@ -49,8 +49,8 @@ const ProjectComponent = () => {
             Frontend Web Developer
           </h4>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-            At Lynk & Co I optimized the site's customer journey using React.
-            Collaborating with design and back-end teams, I enhanced site
+            At Lynk & Co I optimized the site&apos;s customer journey using
+            React. Collaborating with design and back-end teams, I enhanced site
             features, refining my skills in React and creating user-friendly,
             responsive web application.
           </p>
@@ -75,9 +75,9 @@ const ProjectComponent = () => {
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">
             As a Frontend Developer intern, I crafted a Progressive Web App
             (PWA) with Ionic React. Using React Three Fiber and ThreeJS, I
-            incorporated a 3D model, simplifying doctor's appointment booking
-            through a .NET API. This project deepened my understanding of modern
-            web development, honing my skills in React and ThreeJS.
+            incorporated a 3D model, simplifying doctor&apos;s appointment
+            booking through a .NET API. This project deepened my understanding
+            of modern web development, honing my skills in React and ThreeJS.
           </p>
         </li>
         <li className="ms-4">

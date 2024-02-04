@@ -21,7 +21,7 @@ const IntroComponent = () => {
         My primary focus centers on accessibility within web development. At
         Qmatic, I lead and build projects with a keen emphasis on crafting
         solutions that not only look impressive but also adhere to the highest
-        standards of accessibility. In my downtime, you'll find me immersed in
+        standards of accessibility. In my downtime, you will find me immersed in
         rock climbing, reading, and raiding in World of Warcraft.
       </p>
     </div>
